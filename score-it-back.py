@@ -13,7 +13,7 @@ NOTES = {
 class MelodyPlayer:
     def __init__(self, root):
         self.root = root
-        self.root.title("J-Pop Melody Loader")
+        self.root.title("Melody Loader")
         self.score = []
 
         # Listbox for visual feedback
@@ -57,4 +57,5 @@ class MelodyPlayer:
 if __name__ == "__main__":
     root = tk.Tk()
     app = MelodyPlayer(root)
+
     root.mainloop()
