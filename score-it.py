@@ -12,7 +12,7 @@ NOTES = {
 class FullPianoScorer:
     def __init__(self, root):
         self.root = root
-        self.root.title("J-Pop Pro Sequencer (24+ Notes)")
+        self.root.title("Sequencer (24+ Notes)")
         self.score = []
 
         # --- PIANO KEYBOARD SECTION ---
@@ -98,4 +98,5 @@ class FullPianoScorer:
 if __name__ == "__main__":
     root = tk.Tk()
     app = FullPianoScorer(root)
+
     root.mainloop()
